@@ -1,4 +1,4 @@
-"use client";
+s"use client";
 
 import { useChat } from "@ai-sdk/react";
 import { useRouter } from "next/navigation";
@@ -225,8 +225,8 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
 
       <footer className="pb-8 text-center animate-fade-in" style={{ animationDelay: '200ms' }}>
         <p className="text-xs md:text-sm text-muted-foreground">
-          Versi khusus chat AI untuk Learn3 - 
-          Web3 Education Platform.
+          Versi khusus chat AI untuk Nexus - 
+          DApps Showcase Platform.
           <br />
           Lihat di{" "}
           <Button
